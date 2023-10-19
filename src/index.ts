@@ -2,6 +2,8 @@ import express from "express";
 
 const app = express()
 
+const PORT= process.env.PORT || 3000
+
 app.get('/films/:id',(req, res)=>{
 
     return res.send('GET FILMS')
@@ -25,6 +27,6 @@ app.delete('/films/:id',(req, res)=>{
     return res.send('DELETE FILMS '+ filmId) 
 })
 
-app.listen(3000, ()=>{
-    console.log(`Server running`)
+app.listen(PORT, ()=>{
+    console.log(`Server running ${PORT}`)
 })
