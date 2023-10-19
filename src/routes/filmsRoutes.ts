@@ -1,23 +1,21 @@
 import { Router } from "express"
+import { getFilms } from "../controllers/filmsController"
 
 const router = Router()
 
-router.get('/films/:id',(req, res)=>{
-    const filmId = req.params.id
-    return res.send('GET FILMS ' + filmId)
-})
+router.get('/:id', getFilms)
 
-router.post('/films/:id',(req, res)=>{
+router.post('/:id',(req, res)=>{
     const filmId = req.params.id
     return res.send('CREATE FILMS ' + filmId) 
 })
 
-router.put('/films/:id',(req, res)=>{
+router.put('/:id',(req, res)=>{
     const filmId = req.params.id
     return res.send('UPDATE FILMS ' + filmId) 
 })
 
-router.delete('/films/:id',(req, res)=>{
+router.delete('/:id',(req, res)=>{
     const filmId = req.params.id
     return res.send('DELETE FILMS '+ filmId) 
 })
