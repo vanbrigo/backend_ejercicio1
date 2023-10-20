@@ -1,0 +1,73 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "prueba",
+    "dateExported": "2023-10-19T10:27:13.386Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "870a08df-e86f-46b6-b67e-c6b38c8f8528",
+            "name": "FILMS",
+            "containerId": "",
+            "created": "2023-10-19T10:19:24.414Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "d3b82f34-cbce-4e2e-902c-6db1d0731de0",
+            "colId": "7299316b-a5a4-4892-ac79-58fe23a7af61",
+            "containerId": "870a08df-e86f-46b6-b67e-c6b38c8f8528",
+            "name": "localhost:4000/users/222",
+            "url": "localhost:4000/users/222",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-10-18T15:23:24.357Z",
+            "modified": "2023-10-18T15:23:24.357Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3ac63c9a-3706-4431-8f06-98b1f29c196b",
+            "colId": "7299316b-a5a4-4892-ac79-58fe23a7af61",
+            "containerId": "870a08df-e86f-46b6-b67e-c6b38c8f8528",
+            "name": "localhost:4000/users/222",
+            "url": "localhost:4000/users/222",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-10-18T15:24:06.538Z",
+            "modified": "2023-10-18T15:24:06.539Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b3497e44-a29e-4b0f-b09a-6cacc96f90ec",
+            "colId": "7299316b-a5a4-4892-ac79-58fe23a7af61",
+            "containerId": "870a08df-e86f-46b6-b67e-c6b38c8f8528",
+            "name": "localhost:4000/users/222",
+            "url": "localhost:4000/users/222",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-10-18T15:53:08.017Z",
+            "modified": "2023-10-18T15:53:08.017Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d8ba6822-a1f6-4ff9-9273-8b5d8f2ad50f",
+            "colId": "7299316b-a5a4-4892-ac79-58fe23a7af61",
+            "containerId": "870a08df-e86f-46b6-b67e-c6b38c8f8528",
+            "name": "localhost:4000/users/222",
+            "url": "localhost:4000/users/222",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-10-18T15:53:30.184Z",
+            "modified": "2023-10-18T15:53:30.184Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
