@@ -54,5 +54,15 @@ const delateFilms = async(req:Request, res:Response)=>{
         return res.send(error)
     }
 }
+const getFilmById = async(req:Request, res:Response)=>{
+    try {
+        const filmId = req.params.id
+        const filmById = await Film.findOneBy
+        
 
-export {getFilms,createFilms,updateFilmsById,delateFilms}
+    } catch (error) {
+        return res.send(error)
+    }
+}
+
+export {getFilms,createFilms,updateFilmsById,delateFilms,getFilmById}
