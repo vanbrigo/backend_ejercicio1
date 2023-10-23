@@ -3,8 +3,8 @@ import { createFilms, delateFilms, getFilms, updateFilmsById } from "../controll
 
 const router = Router()
 
-router.get('/:id', getFilms)
-router.post('/:id',createFilms)
+router.get('/', getFilms)
+router.post('/',createFilms)
 router.put('/:id',updateFilmsById)
 router.delete('/:id',delateFilms)
 
